@@ -1,0 +1,78 @@
+.teacher-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0e7ff, #c7d2fe, #dbeafe);
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+}
+
+.teacher-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.teacher-header h1 {
+  font-size: 36px;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.teacher-header p {
+  color: #475569;
+  font-size: 16px;
+}
+
+.teacher-table-container {
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.teacher-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.teacher-table th {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.teacher-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+  font-size: 14px;
+}
+
+.status.pending {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.status.reviewed {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.review-btn {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.review-btn:hover {
+  background: linear-gradient(90deg, #1e40af, #1d4ed8);
+  transform: scale(1.05);
+}
